@@ -1,12 +1,7 @@
-var imagee = "";
 var status = "";
 var objects = [];
 
 function preload() {
-    dropDown = document.getElementById("DropW")
-    dropDown.addEventListener("change", ()=> {
-        imagee.setAttribute("src", dropDown.selectedOptions[0].value);
-    })
 }
 
 function setup() {
