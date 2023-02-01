@@ -10,12 +10,19 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body background="background.jpg">
+<body background="Bg.jpg">
   <center>
-    <h1 class="btn btn-info heading">Ai knows it all</h1>
-    <h3 id="Stats" class="btn btn-danger">Status</h3>
-    <h3 id="ObjAmo" class="btn btn-warning">Amount Of Objects: ?</h3>
+    <h1 class="btn btn-info heading">Santamex Secutity Cameras</h1>
+    <br><br><br><br>
+    <button onclick="Start()" class="btn btn-success" id="StartBtn">Start Cameras</button>
+    <button id="Stats" class="btn btn-danger">Status</button>
+    <button id="ObjAmo" class="btn btn-warning">Amount Of Objects: Nil</button>
+    <select id="LiveOrNot" class="form-control">
+      <option value="live">Live Video</option>
+      <option value="video">Pre-recorded video</option>
+    </select>
   </center>
+  <div class="copy_right_fooder">Desarrollado Por José Alejandro</div>
   <script src="main.js"></script>
 </body>
 </html>
